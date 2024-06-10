@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/splash_screen_nutribite"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_bold"
+            android:text="About App"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textTextView"
+            android:layout_width="317dp"
+            android:layout_height="355dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppins"
+            android:includeFontPadding="true"
+            android:padding="8dp"
+            android:text="Nutribite is a recipe app based on the Indian diet which will help users easily access information regarding their favorite foods be it breakfast, lunch, dinner or snacks. It provides all information about the food from A-Z and aims to help users be conscious about their nutrient intake, "
+            android:textAlignment="center"
+            android:textColor="@color/good_black"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/closeButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#53155E"
+            android:text="Close"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+
+</LinearLayout>
